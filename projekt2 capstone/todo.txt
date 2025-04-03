@@ -1,0 +1,137 @@
+   
+  Colors:
+  #9B2226
+  #AE2012
+  #BB3E03
+  #CA6702
+  #EE9B00
+  #E9D8A6
+  #94D2BD
+  #0A9396
+  #005F73
+  #001219
+
+
+
+
+
+
+  .button {
+      background-color:#EE9B00;
+      color: #001219;
+      padding:0% 10% 0%;
+      border-radius: 30px;
+      text-transform: uppercase;
+      text-decoration: none;
+      font-weight: 600;
+      transition-duration: 0.1s;
+      margin: 0% 10% 0% 0%;
+    }
+
+
+
+      @media screen and (max-width: 400px){
+      body {
+        background-color: lavender;
+        margin:0;
+      }
+    }
+
+
+ /*portfolio delen isf*/
+ <section class="portfolio">
+            <div class="portbox1"></div>
+            <div class="portbox2"></div>
+            <div class="portbox3"></div>
+            <div class="portbox4"></div>
+            <div class="portbox5"></div>
+        </section>
+
+.portfolio {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows:1fr 1fr;
+    background-color: grey;
+    height:100vh;
+  }
+  
+  .portbox1{
+    background-color:#f3ad58;
+  }
+  
+  .portbox2{
+    background-color:#a0f358;
+  }
+
+  .portbox3{
+    background-color:#58a5f3;
+  }
+
+  .portbox4{
+    background-color:#f39158;
+  }
+
+  .portbox5{
+    background-color:#f358e6;
+  }
+
+
+  förra knappen:
+  .button{
+    background-color:#EE9B00;
+    color: #001219;
+    border-radius: 15px;
+    padding: 10px;
+    text-decoration: none;
+    font-family:"libre baskerville";
+    transition-duration: 0.1s;
+    margin:10px 15px;
+  }
+  
+  .linkedin {
+    font-weight:600;
+    font-size: 1.5rem;
+    text-align: center;
+    font-family:"caveat", "sans-serif";
+  }
+  
+  .button:hover {
+  background-color:#CA6702;
+    }
+  
+  
+    @media screen and (max-width: 480px){
+      .button hide-class{
+        display:none; 
+      } 
+    }
+  
+transparicy-box:
+  .textbox{
+    background-color:white;
+    height:40vh;
+    opacity:0.7;
+  }
+
+
+
+  osäker på denna animation: 
+
+    background: linear-gradient(300deg, #a7b0b3, #535e5e, #c8d1c3);
+    background-size: 180% 180%;
+    animation: gradient-animation 25s ease infinite;
+  }
+  
+  
+  @keyframes gradient-animation {
+      0% {
+        background-position: 0% 50%;
+      }
+      50% {
+        background-position: 100% 50%;
+      }
+      100% {
+        background-position: 0% 50%;
+      }
+
+
